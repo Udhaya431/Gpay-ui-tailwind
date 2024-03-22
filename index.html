@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gpay-ui</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body class="bg-sky-100">
+    <section class="bg-white max-w-md mx-auto h-[650px] overflow-y-scroll">
+      <div class="flex items-center justify-between px-3 py-4">
+        <div class="flex-1 relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="27"
+            height="27"
+            viewBox="0 0 24 24"
+            class="absolute fill-current top-3 left-3.5 text-gray-200"
+          >
+            <path
+              fill="currentColor"
+              d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14"
+            />
+          </svg>
+          <input
+            type="text"
+            placeholder="Pay contacts and merchants.."
+            class="outline-none bg-zinc-600 px-12 py-3 rounded-full text-white w-full shadow-lg"
+            required
+          />
+        </div>
+        <div class="rounded-full ml-8 mr-6 cursor-pointer">
+          <img
+            src="https://www.koimoi.com/wp-content/new-galleries/2023/06/leo-starrer-thalapathy-vijay-earns-in-crores-but-he-started-his-career-with-a-pay-cheque-of-rs-500-001.jpg"
+            alt="vijay"
+            class="w-11 h-11 rounded-full object-cover shadow-lg"
+          />
+        </div>
+      </div>
+
+      <!-- banner image -->
+      <div>
+        <img
+          src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202101/Screenshot_20210101_181956_1200x768.jpeg?size=1200:675"
+          alt="gpay banner"
+          class="w-full object-cover h-[240px]"
+        />
+      </div>
+      <!-- end banner image -->
+      <!-- icons list -->
+      <div class="px-1 sm:px-5 pt-2 sm:pt-1 flex flex-col">
+        <div class="grid grid-cols-4 px-2 py-1">
+          <div class="list-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M2 7V2h5v2H4v3zm0 15v-5h2v3h3v2zm15 0v-2h3v-3h2v5zm3-15V4h-3V2h5v5zm-2.5 10.5H19V19h-1.5zm0-3H19V16h-1.5zM16 16h1.5v1.5H16zm-1.5 1.5H16V19h-1.5zM13 16h1.5v1.5H13zm3-3h1.5v1.5H16zm-1.5 1.5H16V16h-1.5zM13 13h1.5v1.5H13zm6-8v6h-6V5zm-8 8v6H5v-6zm0-8v6H5V5zM9.5 17.5v-3h-3v3zm0-8v-3h-3v3zm8 0v-3h-3v3z"
+              />
+            </svg>
+            <span class="text-center font-medium text-sm mt-2">
+              Scan any <br />
+              QR code
+            </span>
+          </div>
+          <div class="list-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-8 2.999c1.648 0 3 1.351 3 3A3.012 3.012 0 0 1 13 11c-1.647 0-3-1.353-3-3.001c0-1.649 1.353-3 3-3zM19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18z"
+                fill="currentColor"
+              />
+            </svg>
+            <span class="text-center font-medium text-sm mt-2">
+              Pay<br />
+              contacts
+            </span>
+          </div>
+          <div class="list-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M7 23q-.825 0-1.412-.587T5 21v-6h2v3h10V6H7v3H5V3q0-.825.588-1.412T7 1h10q.825 0 1.413.588T19 3v18q0 .825-.587 1.413T17 23zm0-3v1h10v-1zm3-4l-1.4-1.4l1.55-1.6H2v-2h8.15L8.6 9.4L10 8l4 4zM7 4h10V3H7zm0 0V3zm0 16v1z"
+              />
+            </svg>
+            <span class="text-center font-medium text-sm mt-2">
+              Pay phone<br />
+              number
+            </span>
+          </div>
+          <div class="list-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M2 20h20v2H2zm2-8h2v7H4zm5 0h2v7H9zm4 0h2v7h-2zm5 0h2v7h-2zM2 7l10-5l10 5v4H2zm10 1a1 1 0 1 0 0-2a1 1 0 0 0 0 2"
+              />
+            </svg>
+            <span class="text-center font-medium text-sm mt-2">
+              Bank<br />
+              transfer
+            </span>
+          </div>
+        </div>
+        <div class="grid grid-cols-4 px-2 py-1">
+          <div class="list-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8s8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57V12c0-2.76-2.24-5-5-5s-5 2.24-5 5s2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47c.65.89 1.77 1.47 2.96 1.47c1.97 0 3.5-1.6 3.5-3.57V12c0-5.52-4.48-10-10-10m0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3s3 1.34 3 3s-1.34 3-3 3"
+              />
+            </svg>
+            <span class="text-center font-medium text-xs sm:text-xs p-2">
+              Pay UPI ID <br />
+              or number
+            </span>
+          </div>
+          <div class="list-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M8 6c0-2.21 1.79-4 4-4s4 1.79 4 4s-1.79 4-4 4s-4-1.79-4-4m9 16h1c1.1 0 2-.9 2-2v-4.78c0-1.12-.61-2.15-1.61-2.66c-.43-.22-.9-.43-1.39-.62zm-4.66-5L15 11.33c-.93-.21-1.93-.33-3-.33c-2.53 0-4.71.7-6.39 1.56A2.97 2.97 0 0 0 4 15.22V22h2.34c-.22-.45-.34-.96-.34-1.5C6 18.57 7.57 17 9.5 17zM10 22l1.41-3H9.5c-.83 0-1.5.67-1.5 1.5S8.67 22 9.5 22z"
+              />
+            </svg>
+            <span class="text-center font-medium text-xs sm:text-sm p-2">
+              Self<br />
+              transfer
+            </span>
+          </div>
+          <div class="list-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M7.245 2h9.51c1.159 0 1.738 0 2.206.163a3.045 3.045 0 0 1 1.881 1.936C21 4.581 21 5.177 21 6.37v14.004c0 .858-.985 1.314-1.608.744a.946.946 0 0 0-1.284 0l-.483.442a1.657 1.657 0 0 1-2.25 0a1.657 1.657 0 0 0-2.25 0a1.657 1.657 0 0 1-2.25 0a1.657 1.657 0 0 0-2.25 0a1.657 1.657 0 0 1-2.25 0l-.483-.442a.946.946 0 0 0-1.284 0c-.623.57-1.608.114-1.608-.744V6.37c0-1.193 0-1.79.158-2.27c.3-.913.995-1.629 1.881-1.937C5.507 2 6.086 2 7.245 2M7 6.75a.75.75 0 0 0 0 1.5h.5a.75.75 0 0 0 0-1.5zm3.5 0a.75.75 0 0 0 0 1.5H17a.75.75 0 0 0 0-1.5zM7 10.25a.75.75 0 0 0 0 1.5h.5a.75.75 0 0 0 0-1.5zm3.5 0a.75.75 0 0 0 0 1.5H17a.75.75 0 0 0 0-1.5zM7 13.75a.75.75 0 0 0 0 1.5h.5a.75.75 0 0 0 0-1.5zm3.5 0a.75.75 0 0 0 0 1.5H17a.75.75 0 0 0 0-1.5z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="text-center font-medium text-xs sm:text-sm p-2">
+              Pay <br />
+              bills
+            </span>
+          </div>
+          <div class="list-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M9 4V3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1h3a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm4 8V7l-5 7h3v5l5-7z"
+              />
+            </svg>
+            <span class="text-center font-medium text-xs sm:text-sm p-2">
+              Mobile<br />
+              recharge
+            </span>
+          </div>
+        </div>
+        <div class="flex items-center justify-center gap-3 py-3">
+          <div
+            class="relative border border-dotted border-gray-700 px-2 py-1 rounded-full"
+          >
+            <a href="" class="mr-8 font-medium text-xs sm:text-base">
+              Activate UPI Lite
+            </a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              class="absolute top-1.5 right-3"
+            >
+              <path
+                fill="currentColor"
+                d="M11 13v3q0 .425.288.713T12 17q.425 0 .713-.288T13 16v-3h3q.425 0 .713-.288T17 12q0-.425-.288-.712T16 11h-3V8q0-.425-.288-.712T12 7q-.425 0-.712.288T11 8v3H8q-.425 0-.712.288T7 12q0 .425.288.713T8 13zm1 9q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12q0-3.35-2.325-5.675T12 4Q8.65 4 6.325 6.325T4 12q0 3.35 2.325 5.675T12 20m0-8"
+              />
+            </svg>
+          </div>
+          <a
+            href=""
+            class="bg-black text-white p-2 rounded-full text-xs sm:text-base"
+          >
+            UPI ID : abcdef@gmail.com
+          </a>
+        </div>
+      </div>
+      <!-- end icones list -->
+      <!-- people list -->
+      <h1 class="font-medium text-xl px-3 py-4">People</h1>
+      <div class="grid grid-cols-4 gap-2 px-4">
+        <div
+          class="flex flex-col items-center cursor-pointer hover:text-blue-500"
+        >
+          <img
+            src="https://ui-avatars.com/api/?name=Adhi&background=random"
+            alt="Adhi"
+            class="img-round"
+          />
+          <span class="font-medium text-base mt-2">Adhi</span>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center cursor-pointer hover:text-blue-500"
+        >
+          <img
+            src="https://ui-avatars.com/api/?name=sankar&background=random"
+            alt="Adhi"
+            class="img-round"
+          />
+          <span class="font-medium text-base mt-2">Sankar</span>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center cursor-pointer hover:text-blue-500"
+        >
+          <img
+            src="https://ui-avatars.com/api/?name=kumar&background=random"
+            alt="Adhi"
+            class="img-round"
+          />
+          <span class="font-medium text-base mt-2">Kumar</span>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center hover:text-blue-500"
+        >
+          <img
+            src="https://ui-avatars.com/api/?name=vijay&background=random"
+            alt="Adhi"
+            class="img-round"
+          />
+          <span class="font-medium text-base mt-2">vijay</span>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center cursor-pointer hover:text-blue-500"
+        >
+          <img
+            src="https://ui-avatars.com/api/?name=Siva&background=random"
+            alt="Adhi"
+            class="img-round"
+          />
+          <span class="font-medium text-base mt-2">Siva</span>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center cursor-pointer hover:text-blue-500"
+        >
+          <img
+            src="https://ui-avatars.com/api/?name=Raja&background=random"
+            alt="Adhi"
+            class="img-round"
+          />
+          <span class="font-medium text-base mt-2">Raja</span>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center cursor-pointer hover:text-blue-500"
+        >
+          <img
+            src="https://ui-avatars.com/api/?name=Balaji&background=random"
+            alt="balaji"
+            class="img-round"
+          />
+          <span class="font-medium text-base mt-2"> Balaji</span>
+        </div>
+        <div
+          class="border rounded-full w-[50px] h-[50px] flex items-center justify-center bg-gray-300 ml-5 mt-1 cursor-pointer hover:bg-gray-500 hover:text-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6z"
+            />
+          </svg>
+        </div>
+      </div>
+      <!-- end people list -->
+      <!-- businesses List -->
+      <div class="mt-2">
+        <div class="flex items-center justify-between relative">
+          <span class="px-3 py-4 mr-10 font-medium text-xl">Businesses</span>
+          <div class="relative flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              viewBox="0 0 24 24"
+              class="absolute top-1.5 left-3 fill-current text-white"
+            >
+              <path
+                fill="currentColor"
+                d="M19 6h-2c0-2.8-2.2-5-5-5S7 3.2 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2m-7-3c1.7 0 3 1.3 3 3H9c0-1.7 1.3-3 3-3m7 17H5V8h14zm-7-8c-1.7 0-3-1.3-3-3H7c0 2.8 2.2 5 5 5s5-2.2 5-5h-2c0 1.7-1.3 3-3 3"
+              />
+            </svg>
+            <button
+              class="bg-blue-600 px-10 py-1 w-[130px] rounded-full text-white font-medium text-lg mr-5 tracking-wide hover:bg-blue-500"
+            >
+              Explore
+            </button>
+          </div>
+        </div>
+        <div class="grid grid-cols-4 px-3 mt-2">
+          <div
+            class="flex flex-col items-center cursor-pointer hover:text-blue-400"
+          >
+            <img
+              src="https://1000logos.net/wp-content/uploads/2021/07/Jio-Logo.png"
+              alt="Adhi"
+              class="w-[80px] h-[50px] border-gray-400"
+            />
+            <span class="font-medium text-base mt-2">Jio prpai..</span>
+          </div>
+          <div
+            class="flex flex-col items-center cursor-pointer hover:text-blue-400"
+          >
+            <img
+              src="https://i.pinimg.com/736x/86/f4/d6/86f4d647b439f5f07e04f6ec15790cd7.jpg"
+              alt="Adhi"
+              class="w-[50px] h-[50px] border-gray-300 border-2 rounded-full object-cover"
+            />
+            <span class="font-medium text-base mt-2">Airtel</span>
+          </div>
+          <div
+            class="flex flex-col items-center cursor-pointer hover:text-blue-400"
+          >
+            <img
+              src="https://logowik.com/content/uploads/images/google-play-store4701.jpg"
+              alt="Adhi"
+              class="w-[50px] h-[50px] border-gray-300 rounded-full border-2 object-cover"
+            />
+            <span class="font-medium text-base mt-2">Play store</span>
+          </div>
+          <div
+            class="border rounded-full w-[50px] h-[50px] flex items-center justify-center bg-gray-300 ml-6 hover:bg-gray-500 hover:text-white cursor-pointer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!--  end businesses List -->
+      <!-- balance check -->
+      <div class="mt-5">
+        <h2 class="font-medium text-lg px-4">Manage your money</h2>
+        <div
+          class="px-6 mt-4 flex items-center justify-around hover:cursor-pointer hover:bg-gray-200"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="m20.38 8.57l-1.23 1.85a8 8 0 0 1-.22 7.58H5.07A8 8 0 0 1 15.58 6.85l1.85-1.23A10 10 0 0 0 3.35 19a2 2 0 0 0 1.72 1h13.85a2 2 0 0 0 1.74-1a10 10 0 0 0-.27-10.44z"
+            />
+            <path
+              fill="currentColor"
+              d="M10.59 15.41a2 2 0 0 0 2.83 0l5.66-8.49l-8.49 5.66a2 2 0 0 0 0 2.83"
+            />
+          </svg>
+          <span class="flex-1 mr-4 ml-3 text-lg font-medium">
+            check your CIBIL score for <br />
+            free
+          </span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M8.59 16.59L13.17 12L8.59 7.41L10 6l6 6l-6 6z"
+            />
+          </svg>
+        </div>
+        <div
+          class="mt-2 px-6 py-3 flex items-center justify-around hover:cursor-pointer hover:bg-gray-200"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8s8 3.58 8 8s-3.58 8-8 8m.5-13H11v6l5.25 3.15l.75-1.23l-4.5-2.67z"
+            />
+          </svg>
+          <span class="flex-1 mr-4 ml-3 text-lg font-medium">
+            See transaction history
+          </span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M8.59 16.59L13.17 12L8.59 7.41L10 6l6 6l-6 6z"
+            />
+          </svg>
+        </div>
+        <div
+          class="mt-2 px-6 py-3 flex items-center justify-around hover:cursor-pointer hover:bg-gray-200"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            viewBox="0 0 20 20"
+          >
+            <path
+              fill="currentColor"
+              fill-rule="evenodd"
+              d="M10 2.682L3.938 6.5h12.124zm.267-1.014a.5.5 0 0 0-.533 0L1.939 6.577c-.424.267-.235.923.267.923h15.588c.502 0 .691-.656.267-.923zM2 17a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1h-15A.5.5 0 0 1 2 17m1.5-8.5A.5.5 0 0 1 4 9v6a.5.5 0 0 1-1 0V9a.5.5 0 0 1 .5-.5m3 0A.5.5 0 0 1 7 9v6a.5.5 0 0 1-1 0V9a.5.5 0 0 1 .5-.5m3 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V9a.5.5 0 0 1 .5-.5m3 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V9a.5.5 0 0 1 .5-.5m3 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V9a.5.5 0 0 1 .5-.5"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <span class="flex-1 mr-4 ml-3 text-lg font-medium">
+            Check bank balance
+          </span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M8.59 16.59L13.17 12L8.59 7.41L10 6l6 6l-6 6z"
+            />
+          </svg>
+        </div>
+      </div>
+      <!--  end balance check -->
+
+      <!-- invite list -->
+      <div class="bg-gray-200">
+        <div class="px-6 py-4">
+          <span class="font-bold text-lg inline-block mb-3"
+            >Invite friends to get ₹201</span
+          >
+          <p class="text-base font-medium">
+            Invite friends to Google Pay and get ₹201 when your friend sends
+            their first payment. They get ₹21!
+          </p>
+          <div class="mt-4 relative w-[200px]">
+            <p class="text-base font-normal">
+              Copy your code <span class="font-semibold cursor-pointer">pK4F5</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                class="fill-current absolute top-0 right-4 cursor-pointer"
+              >
+                <path
+                  fill="currentColor"
+                  d="M7 18V2h13v16zm2-2h9V4H9zm-6 6V6h2v14h11v2zm6-6V4z"
+                />
+              </svg>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end invite list -->
+    </section>
+  </body>
+</html>
